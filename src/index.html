@@ -11,17 +11,22 @@
     <title>Screen Recorder</title>
 </head>
 <body>
-    <main class="main container">
-        <h1 class="text-center">HOLY CHRIST ON&nbsp;A&nbsp;FUCKING CRUTCH!!!<br>IT'S A&nbsp;MOTHERFUCKING SCREEN RECORDER!</h1>
-
-        <button type="button" id="toggleBtn">System</button>
+    <main class="main">
+        <header class="page-header">
+            <h1 class="text-center page-header__title">
+                HOLY CHRIST ON&nbsp;A&nbsp;FUCKING CRUTCH!!!<br>IT'S A&nbsp;MOTHERFUCKING SCREEN RECORDER!
+            </h1>
+            <button type="button" title="Toggle theme" id="toggleBtn" class="theme-btn page-header__btn">
+                💻
+            </button>
+        </header>
 
         <video></video>
 
         <h3 id="videoSrc" class="text-center" hidden></h3>
 
         <section class="text-center">
-            <button type="button" id="srcBtn" class="contrast">Select source</button>
+            <button type="button" id="srcBtn">Select source</button>
             <button type="button" id="startBtn" disabled>Start recording</button>
             <button type="button" id="stopBtn" disabled>Stop recording</button>
         </section>

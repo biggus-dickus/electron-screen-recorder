@@ -8,11 +8,7 @@ const __filename = fileURLToPath(import.meta.url)
 const __dirname = dirname(__filename)
 
 ipcMain.handle('dark-mode:toggle', () => {
-    if (nativeTheme.shouldUseDarkColors) {
-        nativeTheme.themeSource = 'light'
-    } else {
-        nativeTheme.themeSource = 'dark'
-    }
+    nativeTheme.themeSource = nativeTheme.shouldUseDarkColors ? 'light' : 'dark'
     return nativeTheme.shouldUseDarkColors
 })
 

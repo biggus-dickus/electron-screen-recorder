@@ -6,4 +6,6 @@ Dead simple screen recording app written with [Electron](https://www.electronjs.
 2. Press "Start recording".
 3. When done, press "Stop recording", and you'll be prompted with a file save dialogue.
 
+![1](https://i.imgur.com/KNjIYKd.png)
+
 No sound is recorded (because in space no-one can hear you scream).

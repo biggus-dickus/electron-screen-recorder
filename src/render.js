@@ -33,6 +33,6 @@ if (srcBtn) {
 if (themeBtn) {
     themeBtn.onclick = async () => {
         const isDarkMode = await window.darkMode.toggle()
-        themeBtn.innerText = isDarkMode ? 'Dark' : 'Light'
+        themeBtn.innerText = isDarkMode ? '🌓︎' : '🌞︎︎'
     }
 }
